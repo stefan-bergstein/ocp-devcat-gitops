@@ -1,2 +1,8 @@
 resources:
 - sso73-postgresql-tmpl.yaml
+- nginx-example-tmpl.yaml
+- httpd-example-tmpl.yaml
+#- mariadb-ephemeral-tmpl.yaml
+#- mongodb-ephemeral-tmpl.yaml
+#- mysql-ephemeral-tmpl.yaml
+
