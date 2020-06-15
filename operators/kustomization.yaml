@@ -1,4 +1,4 @@
 resources:
 - db-operatorsource.yaml
-# - azure-operatorsource.yaml
+- azure-operatorsource.yaml
 #- firewall-operatorsource.yaml
