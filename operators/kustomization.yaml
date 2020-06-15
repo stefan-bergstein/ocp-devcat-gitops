@@ -1,5 +1,5 @@
 resources:
-#- db-operatorsource.yaml
+- db-operatorsource.yaml
 #- db-subscription.yaml
 - azure-operatorsource.yaml
 #- azure-subscription.yaml
