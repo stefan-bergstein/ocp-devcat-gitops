@@ -1,0 +1,15 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: subscription-gitops-demo-subscription
+  namespace: template-test
+  labels:
+    app: subscription-gitops
+  annotations:
+    apps.open-cluster-management.io/github-path: operator-subscriptions
+    apps.open-cluster-management.io/github-branch: master
+spec:
+  name: subscription-gitops-demo-subscription
+  channel: openshift/template-gitops-demo-channel
+  placement:
+    local: true

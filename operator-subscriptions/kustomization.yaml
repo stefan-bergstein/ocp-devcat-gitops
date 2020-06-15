@@ -1,0 +1,4 @@
+resources:
+- operatorgroup.yaml
+- azure-subscription.yaml
+- db-subscription.yaml
