@@ -10,6 +10,6 @@ metadata:
     apps.open-cluster-management.io/github-branch: master
 spec:
   name: operator-gitops-demo-subscription
-  channel: openshift/template-gitops-demo-channel
+  channel: template-test/template-gitops-demo-channel
   placement:
     local: true
