@@ -1,13 +1,14 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
-  name: azure-service-operator
+  name: azure-service-operators
   namespace: template-test
 spec:
   channel: alpha
   installPlanApproval: Automatic
-  name: azure-service-operators 
+  name: azure-service-operators
   source: azure-service-operators
   sourceNamespace: openshift-marketplace
   startingCSV: azure-service-operator.v0.0.1
 
+  

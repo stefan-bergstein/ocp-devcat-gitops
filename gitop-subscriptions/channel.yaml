@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: template-gitops-demo-channel
-  namespace: openshift
+  namespace: template-test
 spec:
   type: GitHub
   pathname: https://github.com/stefan-bergstein/ocp-devcat-gitops.git

@@ -6,7 +6,7 @@ metadata:
 spec:
   channel: stable
   installPlanApproval: Automatic
-  name: db-operators 
+  name: db-operators
   source: db-operators
   sourceNamespace: openshift-marketplace
   startingCSV: postgresql-operator.v0.0.8
