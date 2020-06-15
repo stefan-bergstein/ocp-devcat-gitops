@@ -1,3 +1,4 @@
 resources:
 - channel.yaml 
-- subscription.yaml
+- template-subscription.yaml
+- operator-subscription.yaml

@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorSource
+metadata:
+  name: db-operators
+  namespace: openshift-marketplace
+spec:
+  displayName: DB Operators
+  publisher: pmacik
+  type: appregistry
+  endpoint: https://quay.io/cnr
+  registryNamespace: pmacik
